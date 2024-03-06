@@ -5,7 +5,7 @@ import 'package:js/js.dart';
 
 @JS()
 class Dog {
-  external Dog(String name, int age);
+  external factory Dog(String name, int age);
   external String get name;
   external int get age;
   external void bark();
